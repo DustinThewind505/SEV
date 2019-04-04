@@ -1,0 +1,55 @@
+*{
+	box-sizing: border-box;
+}
+
+/*  Top section  */
+header {
+	z-index: 2;
+	
+	display: flex;
+}
+
+.logo img {
+	border-radius: 250px;
+	width: 70%;
+	height: 70%;
+}
+
+nav {
+	position: absolute;
+	right: 0;
+	font-size: 1.3em;
+	padding: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	padding-right: 20px;;
+}
+
+.top-background {
+	background: url(https://a4-images.myspacecdn.com/images02/124/1e009c1811c24567b657098cf2268590/full.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	z-index: -2;
+	filter: blur(35px);
+	}
+	
+.top-pic {
+	background: url(https://a4-images.myspacecdn.com/images02/124/1e009c1811c24567b657098cf2268590/full.jpg);
+	background-size: cover;
+	width: 85%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	margin: 80px 100px 0 100px;
+	
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+
+
