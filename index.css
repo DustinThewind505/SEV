@@ -76,9 +76,13 @@ nav a {
 #bio p {
 	display: flex;
 	justify-content: space-around;
-	font-size: 2em;
+	font-size: 1.4em;
 	font-family: 'Michroma', sans;
 	padding-top: 20px;
+	text-align: justify;
+	letter-spacing: .2em;
+	line-height: 2em;
+	align-items:center;
 }
 
 .logo-centered {
@@ -87,5 +91,32 @@ nav a {
 	justify-content: center;
 	align-items: center;
 }
+
+#media {
+	padding-top: 50px;
+	justify-content: center;
+	align-items: center;
+}
+
+#media .title {
+	background: black;
+	width: 100%;
+	max-width: 500px;
+	font-size: 1.1em;
+	font-weight: 300;
+	text-transform: uppercase;
+	padding: 20px;
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+}
+
+#media .videos {
+	padding: 0 100px;
+	display: grid;
+	grid-template-columns: 40% 40%;
+	grid-gap: 30px;
+}
+
 
 
